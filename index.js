@@ -9,7 +9,7 @@ fetch("https://striveschool-api.herokuapp.com/api/deezer/search?q=eminem")
       const col = document.createElement("div");
       col.classList.add("col-sm-3");
       col.innerHTML = `
-    <div class="card">
+    <div class="card my-3">
       
         <div class="card-body">
             <p class="card-title">${album.album.title}</p>
