@@ -12,8 +12,8 @@ fetch("https://striveschool-api.herokuapp.com/api/deezer/search?q=eminem")
     <div class="card">
       
         <div class="card-body">
-            <p class="card-title">${album.title}</p>
-            <img src=${album.cover} class="card-img-top" alt="...">
+            <p class="card-title">${album.album.title}</p>
+            <img src=${album.album.cover} class="card-img-top" alt="...">
             
         </div>
     </div>
